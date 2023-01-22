@@ -126,7 +126,7 @@ const Home = () => {
                     k
                   </h3>
                   <p className="mb-0">Total Revenue</p>
-                  <small>4% (30 days)</small>
+                  {/* <small>4% (30 days)</small> */}
                 </div>
               </div>
             </div>
@@ -170,8 +170,8 @@ const Home = () => {
                       <CountUp start={0} end={279} duration={5} />
                     </span>
                   </h3>
-                  <p className="mb-0">Total Orders</p>
-                  <small>4% (30 days)</small>
+                  <p className="mb-0">Reports</p>
+                  {/* <small>4% (30 days)</small> */}
                 </div>
               </div>
             </div>
