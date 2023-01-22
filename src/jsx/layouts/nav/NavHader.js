@@ -13,8 +13,8 @@ const NavHader = () => {
       <div className="nav-header" style={{zIndex: "12"}}>
          <Link to="/" className="brand-logo">
             <img className="logo-abbr" src={logo} alt="" />
-            <img className="logo-compact" src={logoText} alt="" />
-            <img className="brand-title" src={logoText} alt="" />
+            
+            <p className="brand-title" src={logoText} alt="">myHomeCareCloud</p>
          </Link>
 
          <div className="nav-control" onClick={() => setToggle(!toggle)}>

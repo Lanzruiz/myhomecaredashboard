@@ -28,7 +28,7 @@ const Home = () => {
       <div className="form-head d-flex mb-3 align-items-start">
         <div className="mr-auto d-none d-lg-block">
           <h2 className="text-black font-w600 mb-0">Dashboard</h2>
-          <p className="mb-0">Welcome to Davur Admin!</p>
+          <p className="mb-0">Welcome to MyHomeCareCloud Admin!</p>
         </div>
         <Dropdown className="dropdown custom-dropdown">
           <Dropdown.Toggle
@@ -91,8 +91,8 @@ const Home = () => {
                       <CountUp start={0} end={56} duration={5} />
                     </span>
                   </h3>
-                  <p className="mb-0">Total Menus</p>
-                  <small>4% (30 days)</small>
+                  <p className="mb-0">Total Patients</p>
+                  {/* <small>4% (30 days)</small> */}
                 </div>
               </div>
             </div>
@@ -211,7 +211,7 @@ const Home = () => {
                       <CountUp start={0} end={65} duration={5} />
                     </span>
                   </h3>
-                  <p className="mb-0">Total Client</p>
+                  <p className="mb-0">Total Staff</p>
                   <small>4% (30 days)</small>
                 </div>
               </div>

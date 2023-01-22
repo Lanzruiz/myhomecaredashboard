@@ -9272,6 +9272,8 @@ a {
   .nav-header .brand-title {
     margin-left: 20px;
     max-width: 120px;
+    font-size: 20px;
+    color: black;
     margin-top: 5px; }
     [data-theme-version="dark"] .nav-header .brand-title {
       background-position: 0 120%; }
@@ -27849,7 +27851,7 @@ span#counter {
     .login-form-bx .login-logo .logo-icon {
       width: 60px; }
     .login-form-bx .login-logo .logo-text {
-      width: 120px; }
+      width: 120px; font-size: 4vw; text-align: left; color: white }
   .login-form-bx .inner-content {
     max-width: 500px;
     padding-left: 50px;

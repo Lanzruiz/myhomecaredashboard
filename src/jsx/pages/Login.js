@@ -43,7 +43,7 @@ function Login (props) {
 					<div className="col-lg-6 col-md-7 box-skew d-flex">
 						<div className="authincation-content">
 							<div className="mb-4">
-								<h3 className="mb-1 font-w600">Welcome to Davur</h3>
+								<h3 className="mb-1 font-w600">Welcome to myHomeCareCloud</h3>
 								<p className="">Sign in by entering information below</p>
 							</div>
 							{props.errorMessage && (
@@ -91,8 +91,8 @@ function Login (props) {
 					<div className="col-lg-6 col-md-5 d-flex box-skew1">
 						<div className="inner-content align-self-center">
 							<Link to="/dashboard" className="login-logo">
-								<img src={logo} alt="" className="logo-icon mr-2"/>
-								<img src={logotext} alt="" className="logo-text ml-1"/>
+								{/* <img src={logo} alt="" className="logo-icon mr-2"/> */}
+								<p alt="" className="logo-text ml-1">myHomeCareCloud</p>
 							</Link>
 							<h2 className="m-b10 text-white">Login To You Now</h2>
 							<p className="m-b40 text-white">User Experience & Interface Design Strategy SaaS Solutions</p>
